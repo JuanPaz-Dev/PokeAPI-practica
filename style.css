@@ -1,0 +1,55 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(assets/img/pokemon-wallpaper-89a0f8ed61fafd3b5697783fd041661d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.center-flex{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+#div{
+    width: 300px;
+    height: 300px;
+    background-color:#e1d6c989;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+}
+.container-all{
+    padding: 40px 50px;
+    background-color: #f0e9e17b;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    border-radius: 9px;
+}
+
+.name-pokemon{
+    margin-top: 10px;
+    font-family: monospace;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    
+}
