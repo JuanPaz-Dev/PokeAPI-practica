@@ -54,7 +54,7 @@ body{
     margin-top: 10px;
     font-family: monospace;
     font-size: 22px;
-    color: rgb(255, 255, 255);
+    color: #35383a;
     text-transform: uppercase;
     
 }
@@ -63,7 +63,7 @@ body{
     margin-top: 10px;
     font-family: monospace;
     font-size: 12px;
-    color: rgb(255, 255, 255);
+    color: #35383a;
     text-transform: uppercase;
     display: flex;
     align-items: center;

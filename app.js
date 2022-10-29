@@ -34,7 +34,7 @@ const traerPokemon = async () =>
     return data
 }
 
-traerPokemon()
+// traerPokemon()
 
 
 const deleteAll = () =>
@@ -42,5 +42,6 @@ const deleteAll = () =>
     div.innerHTML = '';
 }
 
+// input.addEventListener('submit', traerPokemon);
 btn.addEventListener('click', traerPokemon);
 btnDelete.addEventListener('click', deleteAll);
