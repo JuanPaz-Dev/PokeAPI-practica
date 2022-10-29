@@ -16,7 +16,18 @@ const traerPokemon = async () =>
       <img width="130px" src="${data.sprites.other.home.front_default}">
       <h2 class="name-pokemon">${data.name}</h2>
     </div>
+    <div class="data-pokemon">
+      ${data.types.map((type) =>{
+        return `
+        <h2> ${type.type.name} </h2>
+      
+        `
+      }).join("")}
 
+      <h3>${data.weight / 10} KG</h3>
+      <h3>${data.height / 10} MTS</h3>
+
+    </div>
     `
     div.innerHTML = html;
     
